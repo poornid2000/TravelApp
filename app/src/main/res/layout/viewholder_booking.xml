@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="25sp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/booking_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Main Text"
+                android:textSize="20sp"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/booking_timestamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Main Text">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="18sp"
+                android:id="@+id/delete_booking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Booking">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
